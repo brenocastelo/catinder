@@ -34,7 +34,7 @@ export default function Home({ navigation }) {
 
   useEffect(() => {
     client
-      .get('/images/search?limit=10&has_breeds=1')
+      .get('/images/search?limit=100&has_breeds=1')
       .then((response) => {
         const { data } = response;
         const parsedCats = data.map((cat) => ({
