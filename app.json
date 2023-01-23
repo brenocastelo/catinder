@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "catinder",
+    "slug": "catinder",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
